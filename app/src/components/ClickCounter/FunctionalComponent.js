@@ -18,3 +18,9 @@ const ReClickCounter = () => {
 };
 
 export default ReClickCounter;
+
+/*
+Hiccup(s)
+
+At first I was not getting the update to the state. I was trying `counter++` instead of counter + 1
+*/
