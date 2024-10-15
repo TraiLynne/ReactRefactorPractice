@@ -1,5 +1,10 @@
+import { useState } from "react";
+
 const ReMessage = () => {
-	return <p>Message Functional Component</p>;
+	// State
+	const [message] = useState("Hello, World!");
+
+	return <h1>{message}</h1>;
 };
 
 export default ReMessage;

@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const ReListDisplay = () => {
 	// State
-	const [items, setItems] = useState(["Item 1", "Item 2", "Item 3"]);
+	const [items] = useState(["Item 1", "Item 2", "Item 3"]);
 
 	return (
 		<ul>
