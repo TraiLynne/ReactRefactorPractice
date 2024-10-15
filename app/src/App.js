@@ -13,6 +13,7 @@ function App() {
 				<classComponents.ListDisplay />
 				<classComponents.Message />
 				<classComponents.TodoList />
+				<classComponents.Toggle />
 				<classComponents.UserProfile />
 				<classComponents.Weather />
 			</div>
@@ -25,6 +26,7 @@ function App() {
 				<functionalComponents.ReListDisplay />
 				<functionalComponents.ReMessage />
 				<functionalComponents.ReTodoList />
+				<functionalComponents.ReToggle />
 				<functionalComponents.ReUserProfile />
 				<functionalComponents.ReWeather />
 			</div>
